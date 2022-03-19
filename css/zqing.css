@@ -1,0 +1,166 @@
+﻿* {
+	padding: 0px;
+	margin: 0px;
+}
+
+li{
+	list-style: none;
+}
+.sho {
+	width: 800px;
+	height: 600px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	margin: auto;
+}
+.tou {
+	width: 200px;
+	height: 300px;
+	margin: auto;
+	text-align: center;
+}
+.tou img {
+	border: 3px solid;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+.tou h1 {
+	margin-top: 23px;
+	color: #FFF;
+	font-family: 华文楷体;
+}
+.nr {
+	width: 800px;
+	height: 300px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+.nr ul {
+	margin: auto;
+	height: 100px;
+	width: 700px;
+}
+.nr li {
+	list-style: none;
+}
+.an:hover {
+	background: brown;
+}
+.an {
+	width: 150px;
+	height: 45px;
+	display: block;
+	background: #FF9905;
+	/* color: #000;*/
+	float: left;
+	margin-right: 25px;
+	text-align: center;
+	line-height: 45px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-family:华文楷体 ;
+	position: relative;
+	left: 12px;
+	top: 60px;
+}
+.r {
+	width: 500px;
+	height: 100px;
+	border:1px solid rgba(247, 246, 246, 0.4);
+	border-width: 1px 0px 1px 0px;
+	text-align: center;
+	line-height: 100px;
+	margin: auto;
+}
+.r h3 {
+	font-size: 20px;
+	font-family: 仿宋;
+	color: #fff;
+}
+span {
+	position: fixed;
+	bottom: 0px;
+	color: #FFF;
+	font-size: 10px;
+}
+.toux:hover {
+	border: 3px solid #FF7F00;
+	transition: all 0.8s;
+	transform: rotate(360deg);
+}
+.toux {
+	border-radius: 50%;
+	border: 3px solid #FFF;
+	box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+	transition: all .5s;
+}
+.an:hover {
+	color: #FFF;
+	background: #c2c2c2;
+	border-color: #c2c2c2;
+	opacity: 1;
+	transition: all .5s;
+}
+.db {
+	width: 500px;
+	height: 30px;
+	margin: auto;
+	/* text-align: center;*/
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.db span {
+	color: #FF9900;
+	font-size: 14px;
+	position: relative;
+	left: 100px;
+}
+.db a {
+	color: #CCC;
+}
+
+#ysb{
+    display: block;
+    position: fixed;
+    top: 50px;
+    /* left: 0; */
+    right: 20px;
+    /* bottom: 0; */
+    margin: auto;
+    width: 513px;
+    height: 30px;
+}
+
+#ysb li{
+float: left;
+}
+
+.yse{
+display: block;
+    width: 80px;
+    height: 30px;
+    background: #748c5f;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+.hf{
+	background: url(../images/hp.png);
+	display: block;
+    width: 25px;
+    height: 25px;
+    position: fixed;
+    top: 10px;
+    right: 255px;
+}
+
